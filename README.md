@@ -2,9 +2,11 @@
 
 ## The SFT + RL Process
 
-Core to starting the RLHF process is having a model that responds well to diverse instructions.
 
 #### Supervised Fine-tuning
+
+Core to starting the RLHF process is having a model that responds well to diverse instructions.
+
 
 #### Reward model training
 The underlying goal is to get a model or system that takes in a sequence of text, and returns a scalar reward which should numerically represent the human preference. 
