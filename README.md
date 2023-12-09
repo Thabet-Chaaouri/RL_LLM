@@ -10,3 +10,4 @@ Traditional method:
 
 
 ## The DPO method
+[article](https://huggingface.co/blog/dpo-trl)
