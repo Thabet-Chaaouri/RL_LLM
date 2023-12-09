@@ -1,4 +1,4 @@
-# RL_LLM
+# RLHF_LLM
 
 ## The SFT + RL Process
 
