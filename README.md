@@ -42,8 +42,9 @@ In this step we learn a policy achieving a high reward assigned by the reward mo
 This policy is defined by the equation below:
 ![image](Learning_function_policy.PNG)
 
-Fine-tuning some or all of the parameters of a copy of the initial LM with a policy-gradient RL algorithm.
-PPO has been around for a relatively long time. The relative maturity of this method made it a favorable choice for scaling up to the new application of distributed training for RLHF.
+This step is essentially about fine-tuning some or all of the parameters of a copy of the initial LM with a policy-gradient RL algorithm.
+
+PPO has been around for a relatively long time. The relative maturity of this method made it a favorable choice for this step and scaling up to the new application of distributed training for RLHF.
 
 ## The PPO method
 
