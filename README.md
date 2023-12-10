@@ -3,6 +3,10 @@
 ## The SFT + RL Process
 Start with Pretrained models. why do they need to be finetuned?
 
+To follow instructions and be useful.
+
+To do that there is a 3 step process:
+
 #### Supervised Fine-tuning
 
 Core to starting the RLHF process is having a model that responds well to diverse instructions.
