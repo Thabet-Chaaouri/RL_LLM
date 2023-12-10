@@ -1,7 +1,7 @@
 # RLHF_LLM
 
 ## The SFT + RL Process
-
+Start with Pretrained models. why do they need to be finetuned?
 
 #### Supervised Fine-tuning
 
