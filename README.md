@@ -38,6 +38,9 @@ At this point in the RLHF system, we have a preference model that takes in any t
 
 ![image](https://github.com/Thabet-Chaaouri/RL_LLM/assets/87118784/1d9f2560-99bb-4d7e-a32a-adf9f5470d51)
 
+In this step we learn a policy achieving a high reward assigned by the reward model (model trained above that represents goodness according to humans).
+This policy is defined by the equation below:
+
 Fine-tuning some or all of the parameters of a copy of the initial LM with a policy-gradient RL algorithm.
 PPO has been around for a relatively long time. The relative maturity of this method made it a favorable choice for scaling up to the new application of distributed training for RLHF.
 
