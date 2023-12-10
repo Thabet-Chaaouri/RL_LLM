@@ -69,7 +69,7 @@ The final reward sent to the RL update rule is r=rθ−λrKL.
 
 ​The PPO is a :
 - complex method
-- instable
+- unstable
 - lots of computational ressources 
 
 The scale of data used in training the reward model for most applications of RLHF (~50k labeled preference samples) is still expensive (not as expensive as the data nedded to be generated for pretraining). However, it is still a higher cost than academic labs would likely be able to afford.
