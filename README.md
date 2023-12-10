@@ -9,6 +9,8 @@ To do that there is a 3 step process:
 
 #### Supervised Fine-tuning
 
+Pre-trained Large language models masters the statistical regularities of language. However, they do not possess specific knowledge about particular domains. To bridge this gap, Fine-tuning allows the model to acquire specialized knowledge and adapt its behavior to better serve specific applications, making it more useful and reliable.
+
 Core to starting the RLHF process is having a model that responds well to diverse instructions.
 
 ![Screenshot](SFT_Step.PNG)
