@@ -28,7 +28,7 @@ This  is done thanks to the Bradley Terry model that can infer scores given an o
 ![image](Bradley_Terry_model.PNG)
 
 Then, the preference model is trained by minimizing a negative likelihood over the scores of winner vs loser answer:
-
+![image](Loss_RM.PNG)
 
 
 At this point in the RLHF system, we have a preference model that takes in any text and assigns it a score of how well humans perceive it.
