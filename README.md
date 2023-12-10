@@ -30,6 +30,8 @@ The scale of data used in training the reward model for most applications of RLH
 
 #### Fine-tuning with RL
 
+![image](https://github.com/Thabet-Chaaouri/RL_LLM/assets/87118784/1d9f2560-99bb-4d7e-a32a-adf9f5470d51)
+
 Fine-tuning some or all of the parameters of a copy of the initial LM with a policy-gradient RL algorithm.
 PPO has been around for a relatively long time. The relative maturity of this method made it a favorable choice for scaling up to the new application of distributed training for RLHF.
 
