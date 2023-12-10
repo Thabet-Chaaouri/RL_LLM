@@ -33,7 +33,6 @@ Then, the preference model is trained by minimizing a negative likelihood over t
 
 At this point in the RLHF system, we have a preference model that takes in any text and assigns it a score of how well humans perceive it.
 
-The scale of data used in training the reward model for most applications of RLHF (~50k labeled preference samples) is still expensive (not as expensive as the data nedded to be generated for pretraining). However, it is still a higher cost than academic labs would likely be able to afford
 
 #### Fine-tuning with RL
 
@@ -63,6 +62,7 @@ The final reward sent to the RL update rule is r=rθ−λrKL.
 
 ​
 
+The scale of data used in training the reward model for most applications of RLHF (~50k labeled preference samples) is still expensive (not as expensive as the data nedded to be generated for pretraining). However, it is still a higher cost than academic labs would likely be able to afford
 
 ## The DPO method
 [HF Blog article](https://huggingface.co/blog/dpo-trl)
