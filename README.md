@@ -75,4 +75,9 @@ The final reward sent to the RL update rule is r=rθ−λrKL.
 The scale of data used in training the reward model for most applications of RLHF (~50k labeled preference samples) is still expensive (not as expensive as the data nedded to be generated for pretraining). However, it is still a higher cost than academic labs would likely be able to afford.
 
 ## The DPO method
+
+In the Direct Preference Optimization (DPO) [Paper](https://arxiv.org/pdf/2305.18290.pdf), we leverage a mapping between reward functions and optimal policies to show that this constrained reward maximization problem can be optimized exactly with a single stage of policy training, essentially solving a classification problem on the human preference data.
+
+
+
 [HF Blog article](https://huggingface.co/blog/dpo-trl)
