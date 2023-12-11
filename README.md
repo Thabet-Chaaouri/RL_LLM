@@ -84,6 +84,6 @@ The RL-based objective used by traditional methods like PPO can be optimized exa
 
 What happened actually is that the DPO objective was derived from the RL general objective defined above using a change-of-variables approach, which gives this form:
 
-
+![image](DPO_Objective.PNG)
 
 [HF Blog article](https://huggingface.co/blog/dpo-trl)
