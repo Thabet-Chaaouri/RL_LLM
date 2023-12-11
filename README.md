@@ -80,4 +80,10 @@ In the Direct Preference Optimization (DPO) [Paper](https://arxiv.org/pdf/2305.1
 
 ![image](DPO_Pipeline.PNG)
 
+The RL-based objective used by traditional methods like PPO can be optimized exactly with a simple binary cross-entropy objective, greatly simplifying the preference learning pipeline, getting rid of explicit reward modeling or reinforcement learning.
+
+What happened actually is that the DPO objective was derived from the RL general objective defined above using a change-of-variables approach, which gives this form:
+
+
+
 [HF Blog article](https://huggingface.co/blog/dpo-trl)
