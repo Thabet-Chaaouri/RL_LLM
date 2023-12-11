@@ -78,6 +78,6 @@ The scale of data used in training the reward model for most applications of RLH
 
 In the Direct Preference Optimization (DPO) [Paper](https://arxiv.org/pdf/2305.18290.pdf), we leverage a mapping between reward functions and optimal policies to show that this constrained reward maximization problem can be optimized exactly with a single stage of policy training, essentially solving a classification problem on the human preference data.
 
-
+![image](DPO_Pipeline.PNG)
 
 [HF Blog article](https://huggingface.co/blog/dpo-trl)
