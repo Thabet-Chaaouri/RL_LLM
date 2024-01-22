@@ -93,5 +93,5 @@ What happened actually is that the DPO objective was derived from the RL general
 
 Like most alignment methods, DPO requires a dataset of paired preferences where annotators label which response is better according to a set of criteria like helpfulness or harmfulness. In practice, creating these datasets is a time consuming and costly endeavour. ContextualAI recently proposed an interesting alternative called Kahneman-Tversky Optimisation (KTO), which defines the loss function entirely in terms of individual examples that have been labelled as "good" or "bad" (for example, the 👍 or 👎 icons one sees in chat UIs). These labels are much easier to acquire in practice and KTO is a promising way to continually update chat models running in production environments.
 
-Check out this [HF Blog article](https://huggingface.co/blog/pref-tuning)
+Check out this [HF Blog article](https://huggingface.co/blog/pref-tuning) that compares between the different alignement methods.
 
