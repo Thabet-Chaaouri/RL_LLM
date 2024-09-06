@@ -95,3 +95,6 @@ Like most alignment methods, DPO requires a dataset of paired preferences where 
 
 Check out this [HF Blog article](https://huggingface.co/blog/pref-tuning) that compares between the different alignement methods.
 
+
+Cheat notebooks for RLHF tuning :
+- Checkout this [Colab notebook about finetuning Mistral7B with DPO](https://colab.research.google.com/drive/15iFBr1xWgztXvhrj5I9fBv20c7CFOPBE?usp=sharing)
