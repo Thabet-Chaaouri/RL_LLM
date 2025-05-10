@@ -98,3 +98,5 @@ Check out this [HF Blog article](https://huggingface.co/blog/pref-tuning) that c
 
 Cheat notebooks for RLHF tuning :
 - Checkout this [Colab notebook about finetuning Mistral7B with DPO](https://colab.research.google.com/drive/15iFBr1xWgztXvhrj5I9fBv20c7CFOPBE?usp=sharing)
+
+## The GRPO algorithm
