@@ -100,3 +100,11 @@ Cheat notebooks for RLHF tuning :
 - Checkout this [Colab notebook about finetuning Mistral7B with DPO](https://colab.research.google.com/drive/15iFBr1xWgztXvhrj5I9fBv20c7CFOPBE?usp=sharing)
 
 ## The GRPO algorithm
+
+The deepseek R1 paper introduced the GRPO algorithm, essentially used in the paper to teach the model how to reason. the algorithm works as following:
+- Given a  prompt the model generates multiple answers (what we call a group)
+- GRPO does not need a reward model to evalaute those answers. it can use any function or judge model to score each answer of the group. it uses a simple formula for normalizing the scores :
+  'Advantage = (reward - mean(group_rewards)) / std(group_rewards)'
+- it optimizes its policy based on the rewards (It includes a safety mechanism (called KL divergence penalty) that prevents the model from changing too drastically all at once)
+
+GRPO is a more efficient and stable way to train a model to reason.
